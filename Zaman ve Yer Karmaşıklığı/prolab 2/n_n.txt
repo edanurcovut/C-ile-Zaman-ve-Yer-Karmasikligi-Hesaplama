@@ -1,0 +1,15 @@
+void printAllNumbersThenAllPairSums(int arr[], int size)
+{
+ for (int i = 0; i < size; i++)
+ {
+ printf("%d\n", arr[i]);
+ }
+ for (int i = 0; i < size; i++)
+ {
+ for (int j = 0; j < size; j++)
+ {
+ printf("%d\n", arr[i] + arr[j]);
+ }
+ }
+}
+
